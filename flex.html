@@ -52,7 +52,18 @@
                       swing 3s 1.5s ease forwards
         }
 
-        
+        @keyframes drop{ 			
+			70%{transform: translateY(700px);}
+			0%{opacity: 0;}      
+			100%{transform: translateY(650px); opacity: 1;}
+         }         
+		 @keyframes swing{ 			
+			30%{transform: translateY(650px) rotateZ(90deg);}
+ 			0%{transform: translateY(650px) rotateZ(0deg);}
+ 			90%{transform: translateY(650px) rotateZ(75deg);} 
+			60%{transform: translateY(650px) rotateZ(65deg);}
+          	100%{transform: translateY(650px) rotateZ(70deg);} 
+		}
 
 
 	</style>
